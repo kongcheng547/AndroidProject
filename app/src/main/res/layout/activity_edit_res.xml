@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#161824"
+    tool:context=".edit_res"
+    >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="编辑资料"
+            android:layout_gravity="center"
+            android:textColor="@color/ivory"
+            android:textSize="20sp"
+            />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/head_Img1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/p3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"
+            android:layout_gravity="center"
+            android:text="点击更换头像"
+            android:textColor="@color/ivory" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="名称"
+            android:textColor="@color/ivory"
+            android:textSize="25sp"
+            />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:textColor="@color/ivory"
+            android:layout_alignParentRight="true"
+            android:id="@+id/edit_name"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="抖音号"
+            android:textColor="@color/ivory"
+            android:textSize="25sp"
+            />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:textColor="@color/ivory"
+            android:layout_alignParentRight="true"
+            android:id="@+id/edit_douyinID"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="简介"
+
+            android:textColor="@color/ivory"
+            android:textSize="25sp"
+            />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:textColor="@color/ivory"
+            android:layout_alignParentRight="true"
+            android:id="@+id/edit_Intro"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="性别"
+            android:textColor="@color/ivory"
+            android:textSize="25sp"
+            />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:textColor="@color/ivory"
+            android:layout_alignParentRight="true"
+            android:id="@+id/edit_xingbie"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="生日"
+            android:textColor="@color/ivory"
+            android:textSize="25sp"
+            />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:textColor="@color/ivory"
+            android:layout_alignParentRight="true"
+            android:id="@+id/edit_birthday"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="地区"
+            android:textColor="@color/ivory"
+            android:textSize="25sp"
+            />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:textColor="@color/ivory"
+            android:layout_alignParentRight="true"
+            android:id="@+id/edit_address"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="学校"
+            android:textColor="@color/ivory"
+            android:textSize="25sp"
+            />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:textColor="@color/ivory"
+            android:layout_alignParentRight="true"
+            android:id="@+id/edit_School"
+            />
+    </RelativeLayout>
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/commit_edit"
+        android:text="提交"
+        android:textSize="25dp"
+        />
+
+</LinearLayout>
